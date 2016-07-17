@@ -6,6 +6,10 @@ In this series of videos, I will show you how to make a random quote generator f
 
 This is one of the projects required for the Front End Certificate at [Free Code Camp](http://freecodecamp.com). As such, you should make every attempt to do this project on your own or with a partner. **DO NOT** merely copy this code without understanding what it is or what it does. You'll only be cheating yourself, which will hurt you down the road later.
 
+## YouTube Playlist
+
+I walk you through the project, step by step, in this YouTube playlist. https://www.youtube.com/playlist?list=PLtwj5TTsiP7v6q5j8pin78pUja_yJNrDi
+
 ## Gotchas!
 
 When I did this project months ago, I ran into several problems that caused me hours of grief and headaches. I want you to avoid these problems so that you can spend more time focusing on the fun stuff.
@@ -55,7 +59,7 @@ $.ajax({
     method: 'getQuote',
     lang: 'en',
     format: 'jsonp'
-    // which results in http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp 
+    // which results in http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp
   },
   success: function(response) {
     quote = response.quoteText;
@@ -68,4 +72,3 @@ $.ajax({
   }
 });
 ```
-}
